@@ -324,16 +324,6 @@ address.
     <div class="row">
         <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Workshop Recordings</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
-            {% comment %}
-            WORKSHOP RECORDINGS
-
-            Modify or remove the block below if you plan to record the workshop.
-            {% endcomment %}
-            <p id="recordings">
-            Carpentries workshops are designed to be interactive rather than lecture-based, with lessons that build upon one another.
-            To foster a positive online learning environment, we strongly recommend that participants join in real time.
-            As a result, workshop recordings are not recommended and may not be available to learners.
-            </p>
         </dd>
     </div>
     <div class="row">
