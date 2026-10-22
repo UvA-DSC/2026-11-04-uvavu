@@ -1,25 +1,23 @@
 <div class="row">
   <div class="col-md-6">
-    <h5>Day 1</h5>
+    <h5>Day 1 - 3 November</h5>
     <table class="table table-striped">
-      <tr> <td>Before</td> <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a> </td> </tr>
-      <tr> <td>09:00</td>  <td>Automating Tasks with the Unix Shell</td> </tr>
-      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Automating Tasks with the Unix Shell (Continued)</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      {% if site.flavor == "r" %}
-      <tr> <td>13:00</td>  <td>Building Programs with R</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Building Programs with R (Continued)</td> </tr>
-      {% elsif site.flavor == "python" %}
-      <tr> <td>13:00</td>  <td>Building Programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Building Programs with Python (Continued)</td> </tr>
-      {% else %}
-      {% include warning-flavor.html %}
-      {% endif %}
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>16:30</td>  <td>END</td> </tr>
+      <tr> <td>Before</td> <td>Install python and the carpentries python environment as detailed in the email </td> </tr>
+      <tr> <td>10:00</td>  <td>Welcome and introduction to the workshop</td> </tr>
+      <tr> <td>10:15</td>  <td> <a href="{{site.base_python_gapminder}}/01-run-quit.html" target="_blank">Running and Quitting</a> </td> </tr>
+      <tr> <td>10:30</td>  <td> <a href="{{site.base_python_gapminder}}/02-variables.html" target="_blank">Variables and Assignment</a></td> </tr>
+      <tr> <td>11:00</td>  <td>Morning break</td> </tr>
+      <tr> <td>11:15</td>  <td><a href="{{site.base_python_gapminder}}/03-types-conversion.html" target="_blank">Data Types and Type Conversion </a></td></tr>
+      <tr> <td>11:30</td>  <td><a href="{{site.base_python_gapminder}}/04-built-in.html" target="_blank">Built-in Functions and Help </a></td></tr>
+      <tr> <td>12:00</td>  <td><a href="{{site.base_python_gapminder}}/06-libraries.html" target="_blank">Libraries </a></td></tr>
+      <tr> <td>12:15</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="{{site.base_python_gapminder}}/11-lists.html" target="_blank">Lists </a></td> </tr>
+      <tr> <td>14:45</td>  <td><a href="{{site.base_python_gapminder}}/09-plotting.html#matplotlib-is-the-most-widely-used-scientific-plotting-library-in-python-" target="_blank">Making a first plot </a></td></tr>
+      <tr> <td>14:00</td>  <td>Afternoon break</td> </tr>
+      <tr> <td>14:15</td>  <td><a href="{{site.base_python_gapminder}}/07-reading-tabular.html" target="_blank">Reading Tabular Data into DataFrames </a></td></tr>
+      <tr> <td>14:40</td>  <td><a href="{{site.base_python_gapminder}}/09-plotting.html#plot-data-directly-from-a-pandas-dataframe-" target="_blank">Making a second plot </a></td></tr>
+      <tr> <td>14:50</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>15:00</td>  <td>END</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
